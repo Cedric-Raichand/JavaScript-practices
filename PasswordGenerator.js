@@ -37,7 +37,7 @@ function ask(question) {
 
 
 async function main() {
-    console.log("=== RANDOM PASSWORD GENERATOR ===");
+    console.log(" RANDOM PASSWORD GENERATOR ");
 
     while (true) {
         let lengthInput = await ask("Enter password length (e.g. 8, 12, 16): ");
