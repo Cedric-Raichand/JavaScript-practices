@@ -24,7 +24,7 @@ class BankAccount {
 }
 
 // Example
-let acc = new BankAccount("Cedric", 200);
-acc.deposit(100);
-acc.withdraw(50);
+let acc = new BankAccount("Cedric", 500);
+acc.deposit(200);
+acc.withdraw(150);
 acc.getBalance();

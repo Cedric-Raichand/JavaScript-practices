@@ -23,7 +23,7 @@ async function addContact() {
   const name = await ask("Enter name: ");
   const phone = await ask("Enter phone: ");
   contacts.push({ name, phone });
-  console.log("Contact added!");
+  console.log("Contact added successfully!");
 }
 
 function viewContacts() {
