@@ -71,7 +71,7 @@ function testPassword() {
       console.log("Tip: Mix uppercase, numbers & symbols.");
     } else {
       console.log("STRONG 🔥");
-      console.log("Excellent password.");
+      console.log("Excellent password ✔️.");
     }
 
     menu();
