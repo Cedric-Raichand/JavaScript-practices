@@ -30,7 +30,7 @@ function menu() {
 }
 
 function generatePassword() {
-  rl.question("Enter desired password length (8–20): ", input => {
+  rl.question("Enter desired password lenth (8–20): ", input => {
     const length = parseInt(input);
 
     if (length < 8 || length > 20) {
