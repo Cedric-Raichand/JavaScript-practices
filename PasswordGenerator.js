@@ -1,5 +1,3 @@
-
-
 const readline = require("readline");
 
 // Create interface to read user input
