@@ -8,7 +8,7 @@ const rl = readline.createInterface({
 const secretNumber = Math.floor(Math.random() * 100) + 1;
 let attempts = 0;
 
-console.log("Welcome to the Number Guessing Game!");
+console.log("Welcome to the Number Guessing Game");
 console.log("I am thinking of a number between 1 and 100.");
 
 function askGuess() {
